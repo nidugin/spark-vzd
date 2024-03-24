@@ -18,7 +18,7 @@ To set up the dockerized Spark cluster we will do the following:
 - run `build-images.sh` (if you don't have a bash terminal, just open the file and run each line one by one)
 - run `docker-compose up --scale spark-worker=3`
 - go to `root` folder and move`spark-vzd.jar` to `spark-cluster/apps`
-- go to `root` folder and move `valuation` folder to `spark-cluster/data`
+- Unzip source [data](https://data.gov.lv/dati/dataset/be841486-4af9-4d38-aa14-6502a2ddb517/resource/35a2dbfa-e4b9-41d5-88d0-e1393115dcb1/download/valuation.zip) and put `Valuation` folder into `spark-cluster/data`
 
 
 To interact with the Spark cluster, the folders `data` and `apps` inside the `spark-cluster` folder are mounted onto the Docker containers under `/opt/spark-data` and `/opt/spark-apps` respectively.
