@@ -31,7 +31,7 @@ To run an appliaction, go to `spark-cluster` and execute:
 ```
 
 
-### The result
+### Result
 
 Go to the folder `spark-cluster/data/valuation/output`. Here you can see the JSON file. If we open it then you can see the result:
 
